@@ -1,0 +1,98 @@
+body {
+  background-image: url(https://images.wallpaperscraft.com/image/trees_top_view_forest_119826_3840x2160.jpg);
+  margin: 0;
+  padding: 0; }
+  body a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.container-fluid {
+  height: 120px; }
+  .container-fluid img {
+    height: 120px; }
+
+.container .carousel-inner img {
+  width: 100%;
+  height: 480px; }
+
+.container .carousel-inner p {
+  color: black; }
+
+.container .carousel-inner h5 {
+  color: black; }
+
+.rowT {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row; }
+  .rowT p {
+    font-size: 25px;
+    padding-top: 5px;
+    text-decoration: overline; }
+  .rowT .col-6 iframe {
+    margin: 10px; }
+  @media screen and (max-width: 516px) {
+    .rowT {
+      display: flex;
+      flex-direction: column; } }
+
+footer ul {
+  background-color: #a7f5a7;
+  width: 25%;
+  display: flex;
+  flex-direction: row-reverse; }
+  footer ul li {
+    display: inline-block;
+    list-style: none;
+    color: #0c180e;
+    padding: 5px; }
+    footer ul li:hover {
+      background-color: green; }
+
+/* 
+body {
+    background-image: url(https://images.wallpaperscraft.com/image/trees_top_view_forest_119826_3840x2160.jpg);
+    margin: 0;
+    padding: 0;
+    a {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
+
+.container-fluid {
+    height: 120px;
+    img {
+        height: 120px;
+    }
+}
+
+.rowT {
+    background-color: white;
+    width: 100%;
+    p {
+        font-style: bold;
+        font-size: 40px;
+    }
+    .col-6 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+footer {
+    ul {
+    background-color: rgb(167, 245, 167);
+    width: 25%;
+    display: flex;
+    flex-direction: row-reverse;
+        li{
+        display: inline-block;
+        list-style: none ;
+        color: rgb(12, 24, 14);
+        padding: 5px;
+        &:hover {
+            background-color: green;
+        }
+     }
+    }
+}
+
+*/

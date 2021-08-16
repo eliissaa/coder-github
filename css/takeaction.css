@@ -1,0 +1,43 @@
+* { 
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://images.wallpaperscraft.com/image/trees_top_view_forest_119826_3840x2160.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*menu*/
+.row img {
+    height: 120px;
+}
+
+/*body*/
+.titulo {
+    color:white;
+    font-size: 2rem;
+}
+
+.border {
+    background-color:rgba(124, 250, 187, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    height: 250x;
+    border-style: double;
+}
+
+.tabla th {
+    color:white;
+    flex-basis: content;
+    padding: 30px;
+}
+
+.tabla tr {
+    color:rgb(255, 255, 255);
+    font-size: 1,5rem;
+    border-bottom: solid white;
+}
