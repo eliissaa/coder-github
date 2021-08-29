@@ -1,79 +1,58 @@
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-}
-
 body {
-    background-image: url(https://images.wallpaperscraft.com/image/trees_top_view_forest_119826_3840x2160.jpg);
-    background-size: cover;
-    font-family: Arial, Helvetica, sans-serif;
-}
+  background-image: url(https://images.wallpaperscraft.com/image/trees_top_view_forest_119826_3840x2160.jpg);
+  margin: 0;
+  padding: 0; }
+  body a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
-/*menu*/
-.row img {
-    height: 120px;
-}
+.container-fluid {
+  height: 120px; }
+  .container-fluid img {
+    height: 120px; }
 
-/*texto*/
+.container .carousel-inner img {
+  width: 100%;
+  height: 480px; }
+
+.container .carousel-inner p {
+  color: black; }
+
+.container .carousel-inner h5 {
+  color: black; }
+
 .sobreNosotros {
-    display: grid;
-    grid-template-columns: repeat(2,2fr);
-    grid-gap: 1px;
-    background: radial-gradient(ellipse at top, #e66465, transparent),
-            radial-gradient(ellipse at bottom, #4d9f0c, transparent);
-}
-
-.sobreNosotros  {
-    font-size: 2rem;
-    width: 100%;
-    height: 300px;
-    padding: 20px;
-    color: white;
-    display: flex;
-    align-items: center;
-}
-
-.textoU p {
-    border-right:solid white;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 1px;
+  background: radial-gradient(ellipse at top, #e66465, transparent), radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+  font-size: 2rem;
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  align-items: center; }
+  .sobreNosotros .textoU p {
+    border-right: solid white;
     font-size: 50px;
-    padding: 15px;
-}
-.textoD {
+    padding: 15px; }
+    @media only screen and (min-width: 250px) and (max-width: 480px) {
+      .sobreNosotros .textoU p {
+        font-size: 12px;
+        padding: 0;
+        margin: 0; } }
+    @media screen and (max-width: 645px) {
+      .sobreNosotros .textoU p {
+        font-size: 30px; } }
+  .sobreNosotros .textoD {
     font-size: 24px;
     padding-left: 20px;
-    margin: 20px;
-}
-
-/*MediaQuerys*/
-
-@media (min-width: 517px) and (max-width:980px) {
-    .textoU p {
-        font-size: 30px;
-    }
-    .textoD {
-        font-size: 18px;
-    }
-}
-
-@media (min-width: 351px) and (max-width:516px) {
-    .textoU p {
-        font-size: 18px;
-    }
-    .textoD {
-        font-size: 11px;
-    }
-
-}
-
-@media (min-width: 0px) and (max-width:350px) {
-
-    .textoU p {
-        font-size: 14px;
-    }
-    .textoD {
-        font-size: 11px;
-    }
-    
-}
+    margin: 20px; }
+    @media only screen and (min-width: 250px) and (max-width: 480px) {
+      .sobreNosotros .textoD {
+        font-size: 9px;
+        padding: 0;
+        margin: 2%; } }
+    @media screen and (max-width: 645px) {
+      .sobreNosotros .textoD {
+        font-size: 19px; } }

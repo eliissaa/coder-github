@@ -1,0 +1,60 @@
+body {
+    background-image: url(https://images.wallpaperscraft.com/image/trees_top_view_forest_119826_3840x2160.jpg);
+    margin: 0;
+    padding: 0;
+    a {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
+
+.container-fluid {
+    height: 120px;
+    img {
+        height: 120px;
+    }
+}
+
+.container {
+    .carousel-inner {
+        img {
+            width: 100%;
+            height: 480px;
+        }
+        p {
+            color: black;
+        }
+        h5 {
+            color: black;
+        }
+    }
+}
+
+main {
+    .row {
+        width: 700px;
+    }
+    .row img {
+        width: 450px;
+        height: 200px;
+    }
+    @media only screen and (min-width:320px) and (max-width:480px) {
+        .h5 p {
+            font-size: 14px;
+        }
+        .row {
+            width: 300px;
+        }
+        .row img {
+            width: 270px;
+            height: 110px;
+        }
+    }
+    @media screen and (max-width: 516px) {
+        .row {
+            width: 300px;
+        }
+        .row img {
+            width: 270px;
+            height: 110px;
+        }
+    }
+}
